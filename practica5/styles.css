@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background-color: #e8eef5;
+    margin: 0;
+}
+header {
+    background-color: #1f3a5f;
+    color: #ffffff;
+    text-align: center;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    font-size: 36px;
+    margin: 0 0 10px 0;
+}
+
+header p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.contenedor {
+    background-color: #ffffff;
+    max-width: 700px;
+    margin: 30px auto;
+    padding: 30px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+}
+
+h2 {
+    font-size: 26px;
+    color: #1f3a5f;
+    text-align: center;
+    margin: 25px 0 15px 0;
+}
+
+.sobre-mi {
+    text-align: justify;
+    line-height: 1.5;
+}
+
+.materias {
+    text-align: center;
+}
+
+.tarjeta {
+    display: inline-block;
+    width: 27%;
+    background-color: #f4c542;
+    text-align: center;
+    padding: 15px;
+    margin: 10px 1.5%;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
+}
+
+.tarjeta h3 {
+    margin: 0 0 8px 0;
+    font-size: 16px;
+}
+
+.tarjeta p {
+    margin: 0;
+    font-size: 13px;
+}
+
+.tarjeta:hover {
+    background-color: #e0555a;
+    color: #ffffff;
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.5);
+}
+
+ul {
+    color: #1f3a5f;
+    margin: 20px 90px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.3);
+}
+
+th {
+    background-color: #1f3a5f;
+    color: #ffffff;
+    text-align: center;
+    padding: 12px;
+}
+
+td {
+    text-align: center;
+    padding: 12px;
+    border: 1px solid #d0d7e2;
+}
+
+tr:nth-child(even) {
+    background-color: #f1f5fa;
+}
+
+tr:hover {
+    background-color: #ffe9a8;
+}
+
+footer {
+    background-color: #1f3a5f;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 13px;
+}
